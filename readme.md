@@ -485,7 +485,7 @@ $route['/article/delete/(:num)'] = 'article/delete/$1'; // Delete a specific art
 
 `layouts/header.php`: This file contains the HTML head section, including the page title and meta tags.
 
-```php
+```html
 <!doctype html>
 
 <html lang="en">
@@ -509,7 +509,7 @@ $route['/article/delete/(:num)'] = 'article/delete/$1'; // Delete a specific art
     
 
 `layouts/footer.php`: This file contains the closing body and HTML tags along with any footer content.
-```php
+```html
 <footer><em>&copy; 2025</em></footer>
 
 <script src="app.js"></script> <!-- JS file -->
